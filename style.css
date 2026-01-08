@@ -353,8 +353,7 @@ section{padding:60px 5%;}
   cursor: pointer;
 }
 
-.outline-btn:hover,
-.primary-btn:hover {
+.outline-btn:hover,.primary-btn:hover {
   opacity: .9;
 }
  
@@ -424,6 +423,120 @@ section{padding:60px 5%;}
 .quick-card button:hover{
   transform: scale(1.05);
 }
+
+.section-heading{
+  text-align:center;
+}
+
+.main-heading{
+  font-size:28px;
+  font-weight:800;
+  color:#0b2f78;
+  letter-spacing:.5px;
+}
+
+.sub-heading{
+  margin-top:4px;
+  font-size:14px;
+  color:#6b7280;
+  font-weight:500;
+}
+
+.mcat-section{
+  display:flex;
+  justify-content:center;
+  padding:4px 15px;
+  background:linear-gradient(145deg,#ffffff,#f3f6ff);
+}
+
+.mcat-card{
+  max-width:720px;
+  width:100%;
+  background:#ffffff;
+  border-radius:22px;
+  padding:28px;
+  border:1px solid #edf0ff;
+  box-shadow:0 18px 45px rgba(0,0,0,.08);
+  position:relative;
+}
+
+.mcat-badge{
+  position:absolute;
+  top:-14px;
+  left:22px;
+  background:#2563eb;
+  color:#fff;
+  padding:6px 14px;
+  border-radius:12px;
+  font-weight:700;
+}
+
+.mcat-title{margin-top:10px;
+  font-size:22px;
+  color:#111827;
+}
+.mcat-desc{color:#6b7280;
+  margin-bottom:16px;
+}
+
+.mcat-form{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+}
+
+.mcat-group{display:flex;
+  flex-direction:column;
+}
+.mcat-group label{font-size:13px;
+  margin-bottom:4px;
+  color:#374151;
+}
+
+.mcat-group input{
+  padding:10px 12px;
+  border-radius:12px;
+  border:1px solid #d1d5db;
+  font-size:14px;
+  outline:none;
+}
+.mcat-group input:focus{border-color:#2563eb;}
+
+
+.mcat-btn-row{
+  display:flex;
+  gap:10px;
+  margin-top:6px;
+}
+
+.mcat-btn{
+  text-align:center;
+  padding:12px 14px;
+  border-radius:14px;
+  font-weight:700;
+  border:none;
+  text-decoration:none;
+  font-size:15px;
+}
+
+.mcat-btn.primary{
+  background:#f97316;
+  color:#fff;
+}
+
+.mcat-btn.secondary{
+  background:#ffffff;
+  color:#2563eb;
+  border:2px solid #2563eb;
+}
+
+.mcat-btn:hover{opacity:.9;}
+
+@media(max-width:600px){
+  .mcat-form{grid-template-columns:1fr;}
+  .mcat-btn-row{flex-direction:column;}
+}
+
 
 
 .about-section{
@@ -499,4 +612,12 @@ section{padding:60px 5%;}
   .about-content{
     grid-template-columns:1fr;
   }
+}
+
+.site-footer{
+  text-align:center;
+  padding:18px 10px;
+  font-size:9px;
+  margin-top:40px;
+  
 }

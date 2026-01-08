@@ -15,7 +15,8 @@
   <a href="#home">Home</a>
   <a href="#faculty">Faculty Details</a>
   <a href="#projects-section pro">Student Projects</a>
-  <a href="#achievements">Achievements</a>
+  <a href="#quick-section">Explore More</a>
+  <a href="#mcat-section">M-CAT Exame</a>
   <a href="#events">Upcoming Events</a>
   <a href="#about">About Campus</a>
 </div>
@@ -52,6 +53,7 @@
       <h3>Nivedita Mishra</h3>
       <p>Campus Head — Sunstone Bhopal</p>
       <p>Email:NiveditaMishra@sunstone.in</p>
+      <p>Linkedin:<a href="https://www.linkedin.com/in/niveditakmishra/"> niveditakmishra</a></p>
       <p>Experience: 12+ Years | MBA (Leadership & Strategy)</p>
     </div>
 
@@ -62,7 +64,7 @@
     <h2 class="section-title">Your Campus Manager</h2>
 
       <div class="card">
-      <img src="   " class="avatar">
+      <img src="image/anurag sir.png" class="avatar">
       <h3>Anurag Yadav</h3>
       <p>Campus Manager — Sunstone Bhopal</p>
       <p>Email:AnuragYadav@sunstone.in</p>
@@ -89,7 +91,8 @@
 
     <div class="card">
       <img src="image/gourav sir.png" class="avatar">
-      <h3>Prof. Gourav Mishra</h3>
+      <h3>Prof. Gaurav Mishra</h3>
+      <p>Linkedin:<a href="https://www.linkedin.com/in/gaurav-mishra-51611025/"> gaurav-mishra-51611025</a></p>
       <p>Faculty — Associat Professor</p>
       <p>B.Tech (CSE) | C • C++ • DSA</p>
       <p>Experience: 7+ Years |</p>
@@ -98,6 +101,7 @@
     <div class="card">
       <img src="image/umesh sir.png" class="avatar">
       <h3>Prof. Umesh Kumar Sahu</h3>
+      <p>Linkedin:<a href="https://www.linkedin.com/in/umesh-kumar-a7796860/"> umesh-kumar-a7796860</a></p>
       <p>Faculty — Deputy Profesor</p>
       <p>M.Tech (CS) |  • DSA • Data Analytics • Java • DSA </p>
       <p>Experience: 13+ Years |</p>
@@ -106,6 +110,7 @@
     <div class="card">
       <img src="image/affan sir.png" class="avatar">
       <h3>Prof. Mohd Affan Sheikh</h3>
+      <p>Linkedin:<a href="https://www.linkedin.com/in/mohd-affan-sheikh/"> mohd-affan-sheikh</a></p>
       <p>Faculty — Assistant Profesor </p>
       <p>MCA | • Cloud computing • Web developmen • DBMS  </p>
       <p>Experience: 7+ Years |</p>
@@ -114,7 +119,9 @@
     <div class="card">
       <img src="image/prince sir.png" class="avatar">
       <h3>Prof. Prince Narula</h3>
+      <p>Linkedin:<a href="https://www.linkedin.com/in/prince-narula-07526a264/"> prince-narula-07526a264</a></p>
       <p>Faculty —Assistant Profesor </p>
+      <p>B.Tech / M.Tech | • Web development • Python development • DBMS  </p>
       <p></p>
     </div>
 
@@ -271,7 +278,50 @@
   </div>
 </section>
 
-<section class="quick-section">
+<section class="Mcat-heading">
+    <h2 class="main-heading">M-CAT SUNSTONE</h2>
+    <p class="sub-heading">
+     • Entrance Test • Zero Assessment test
+    </p>
+  </section>
+<section id="mcat-section">
+  <div class="mcat-card">
+    <div class="mcat-badge">M-CAT 2026</div>
+
+    <h2 class="mcat-title">M-CAT Entrance Exam Registration</h2>
+    <p class="mcat-desc">
+      Register to receive your examination link after submission.
+    </p>
+
+    <form id="mcatForm" class="mcat-form">
+      <div class="mcat-group">
+        <label>Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+      </div>
+
+      <div class="mcat-group">
+        <label>Mobile Number</label>
+        <input type="tel" id="phone" placeholder="Enter mobile number" required>
+      </div>
+
+      <div class="mcat-group">
+        <label>Email Address</label>
+        <input type="email" id="email" placeholder="Enter email address" required>
+      </div>
+
+      <div class="mcat-btn-row">
+        <button type="submit" class="mcat-btn primary">Get Exam Link</button>
+
+        <a href="exam-details.html" class="mcat-btn secondary">
+          Know More About Exam
+        </a>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<section id="quick-section">
   <h2>Explore More</h2>
 
   <div class="quick-grid">
@@ -279,23 +329,24 @@
     <div class="quick-card">
       <i class="fas fa-trophy"></i>
       <h3>Achievements</h3>
-      <button>View Details</button>
+      <a href="achivment.html"><button>View Achivement</button></a>
     </div>
 
     <div class="quick-card">
       <i class="fas fa-images"></i>
-      <h3>Gallery</h3>
-      <button>Open Gallery</button>
+      <h3>Gallery </h3>
+      <a href="gallery.html"><button>View Gallery</button></a>
     </div>
 
     <div class="quick-card">
       <i class="fas fa-star"></i>
-      <h3>Benefits of Sunstone</h3>
-      <button>Know More</button>
+      <h3>Benefits of Sunstone Bhopal </h3>
+      <a href="benefits.html"><button>View Details</button></a>
     </div>
 
   </div>
 </section>
+
 
 <section class="about-section">
   <div class="about-content">
@@ -303,7 +354,7 @@
     <div class="about-text">
       <h2>About Sunstone Bhopal Campus</h2>
       <p>
-        Sunstone Bhopal Campus is a forward–driven learning ecosystem designed to
+        Sunstone Bhopal Campus is a forward driven learning ecosystem designed to
         empower students with industry-ready skills, experiential learning, and
         real-world exposure. Our programs are crafted in collaboration with
         corporate leaders, ensuring that every learner is prepared for
@@ -317,13 +368,20 @@
         <li><i class="fas fa-check-circle"></i> Modern learning labs & collaborative campus culture</li>
       </ul>
 
-      <button src="https://sunstone.in/" class="about-btn">Know More About Sunstone</button>
+      <button class="about-btn">Know More About Sunstone</button>
     </div>
       
     </div>
 
   </div>
 </section>
+
+<footer class="site-footer">
+  <p>Designed & Developed by <strong>Tushar Singour</strong></p>
+  <p>Website Created on: <strong>07 January 2026</strong></p>
+</footer>
+
+
 
 
 <script>
