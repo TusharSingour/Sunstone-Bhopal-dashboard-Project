@@ -15,10 +15,10 @@
   <a href="#home">Home</a>
   <a href="#faculty">Faculty Details</a>
   <a href="#projects-section pro">Student Projects</a>
-  <a href="#quick-section">Explore More</a>
+  <a href="#explore-official">Explore More</a>
   <a href="#mcat-section">M-CAT Exame</a>
   <a href="#events">Upcoming Events</a>
-  <a href="#about">About Campus</a>
+  <a href="#about-sunstone">About Campus</a>
 </div>
 
 <header>
@@ -137,7 +137,6 @@
   <div class="projects-wrapper">
 
     <div class="project-card pro">
-      <div class="badge">Web App</div>
       <img src="image/project 1.jpg" class="project-img">
 
       <h3>Smart Attendance System</h3>
@@ -157,7 +156,6 @@
     </div>
 
     <div class="project-card pro">
-      <div class="badge green">Frontend</div>
       <img src="image/event portal.jpg" class="project-img">
 
       <h3>College Event Portal</h3>
@@ -177,7 +175,6 @@
     </div>
 
     <div class="project-card pro">
-      <div class="badge blue">Dashboard</div>
       <img src="image/e learning.jpg" class="project-img">
 
       <h3>E-Learning Dashboard</h3>
@@ -278,103 +275,148 @@
   </div>
 </section>
 
-<section class="Mcat-heading">
-    <h2 class="main-heading">M-CAT SUNSTONE</h2>
-    <p class="sub-heading">
-     • Entrance Test • Zero Assessment test
-    </p>
-  </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sunstone M-CAT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mcat.css">
+</head>
+<body>
+
 <section id="mcat-section">
-  <div class="mcat-card">
-    <div class="mcat-badge">M-CAT 2026</div>
+  <div class="mcat-container">
 
-    <h2 class="mcat-title">M-CAT Entrance Exam Registration</h2>
-    <p class="mcat-desc">
-      Register to receive your examination link after submission.
+    <span class="mcat-badge">SUNSTONE M-CAT 2026</span>
+
+    <h2 class="mcat-heading">Sunstone M-CAT</h2>
+
+    <p class="mcat-description">
+      Sunstone M-CAT is an aptitude-based assessment designed to help students
+      prepare for aptitude tests and Mock Personal Interviews (PI).
+      It evaluates analytical thinking, communication readiness, and overall career potential.
     </p>
 
-    <form id="mcatForm" class="mcat-form">
-      <div class="mcat-group">
+    <form class="mcat-form">
+
+      <div class="form-group">
         <label>Full Name</label>
-        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="text" placeholder="Enter your full name" required>
       </div>
 
-      <div class="mcat-group">
+      <div class="form-group">
         <label>Mobile Number</label>
-        <input type="tel" id="phone" placeholder="Enter mobile number" required>
+        <input type="tel" placeholder="Enter mobile number" required>
       </div>
 
-      <div class="mcat-group">
+      <div class="form-group">
         <label>Email Address</label>
-        <input type="email" id="email" placeholder="Enter email address" required>
+        <input type="email" placeholder="Enter email address" required>
       </div>
 
-      <div class="mcat-btn-row">
-        <button type="submit" class="mcat-btn primary">Get Exam Link</button>
+      <button type="submit" class="btn-primary">
+        Get M-CAT Link
+      </button>
 
-        <a href="exam-details.html" class="mcat-btn secondary">
-          Know More About Exam
-        </a>
-      </div>
+      <a href="#" class="btn-secondary">
+        Know More About Sunstone M-CAT
+      </a>
+
+      <p class="privacy-note">
+        This assessment is intended for aptitude and interview preparation only.
+      </p>
+
     </form>
 
   </div>
 </section>
 
-<section id="quick-section">
-  <h2>Explore More</h2>
+</body>
+</html>
 
-  <div class="quick-grid">
+<section id="explore-official">
+  <div class="explore-wrapper">
 
-    <div class="quick-card">
-      <i class="fas fa-trophy"></i>
-      <h3>Achievements</h3>
-      <a href="achivment.html"><button>View Achivement</button></a>
+    <h2 class="explore-heading">Explore More</h2>
+    <p class="explore-subheading">
+      Discover key highlights and resources of Sunstone Bhopal Campus
+    </p>
+
+    <div class="explore-cards">
+
+      <div class="explore-box">
+        <div class="explore-icon">
+          <i class="fa-solid fa-trophy"></i>
+        </div>
+        <h3>Achievements</h3>
+        <p>
+          Awards, recognitions and student success stories showcasing excellence.
+        </p>
+        <a href="achivment.html">View Achievements →</a>
+      </div>
+
+      <div class="explore-box">
+        <div class="explore-icon">
+          <i class="fa-regular fa-image"></i>
+        </div>
+        <h3>Gallery</h3>
+        <p>
+          Campus life, events, workshops and memorable academic moments.
+        </p>
+        <a href="gallery.html">View Gallery →</a>
+      </div>
+
+      <div class="explore-box">
+        <div class="explore-icon">
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <h3>Benefits of Sunstone</h3>
+        <p>
+          Industry-aligned programs, placements and career-driven learning.
+        </p>
+        <a href="benefits.html">View Benefits →</a>
+      </div>
+
     </div>
-
-    <div class="quick-card">
-      <i class="fas fa-images"></i>
-      <h3>Gallery </h3>
-      <a href="gallery.html"><button>View Gallery</button></a>
-    </div>
-
-    <div class="quick-card">
-      <i class="fas fa-star"></i>
-      <h3>Benefits of Sunstone Bhopal </h3>
-      <a href="benefits.html"><button>View Details</button></a>
-    </div>
-
   </div>
 </section>
 
 
-<section class="about-section">
-  <div class="about-content">
+  <section id="about-sunstone">
+  <div class="about-container">
 
-    <div class="about-text">
-      <h2>About Sunstone Bhopal Campus</h2>
+    <div class="about-content">
+      <span class="section-tag">ABOUT CAMPUS</span>
+      <h2>About <span>Sunstone Bhopal Campus</span></h2>
+
       <p>
-        Sunstone Bhopal Campus is a forward driven learning ecosystem designed to
-        empower students with industry-ready skills, experiential learning, and
-        real-world exposure. Our programs are crafted in collaboration with
-        corporate leaders, ensuring that every learner is prepared for
-        competitive job roles, innovation, and entrepreneurship.
+        Sunstone Bhopal Campus is a forward-driven learning ecosystem
+        designed to empower students with industry-ready skills,
+        experiential learning, and real-world exposure. Programs are
+        co-created with corporate leaders to ensure career excellence.
       </p>
 
       <ul class="about-points">
-        <li><i class="fas fa-check-circle"></i> Industry-aligned curriculum with practical projects</li>
-        <li><i class="fas fa-check-circle"></i> Expert-led workshops, hackathons & internships</li>
-        <li><i class="fas fa-check-circle"></i> Career mentorship, placement support & training</li>
-        <li><i class="fas fa-check-circle"></i> Modern learning labs & collaborative campus culture</li>
+        <li>Industry-aligned curriculum with live projects</li>
+        <li>Expert-led workshops, hackathons & internships</li>
+        <li>Career mentorship, placement support & training</li>
+        <li>Modern labs & collaborative campus culture</li>
       </ul>
 
-      <button class="about-btn">Know More About Sunstone</button>
+      <a href="#" class="about-btn">Know More About Sunstone</a>
     </div>
-      
+
+    <div class="about-visual">
+      <div class="glass-card">
+        <h3>Why Choose Sunstone?</h3>
+        <p>Skills • Mentorship • Placements • Growth</p>
+      </div>
     </div>
 
   </div>
 </section>
+
 
 <footer class="site-footer">
   <p>Designed & Developed by <strong>Tushar Singour</strong></p>
